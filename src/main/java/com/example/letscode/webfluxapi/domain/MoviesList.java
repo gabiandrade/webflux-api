@@ -12,7 +12,7 @@ public class MoviesList {
     @SerializedName("results")
     public List<Movie> moviesList;
 
-    public String getItemCount(){
+    public String getItemCount() {
         return "Quantidade de filmes encontrados: " + this.moviesList.size();
     }
 }
